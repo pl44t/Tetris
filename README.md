@@ -1,2 +1,2 @@
-Unfinished Tetris browser project
-used a lot of ai for the code 
+Unfinished Tetris browser project. 
+Used a lot of AI for the code 
