@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="controls">
+            <h2>Controls</h2>
+            <p>Move Left: <kbd>Left Arrow</kbd> / <kbd>A</kbd></p>
+            <p>Move Right: <kbd>Right Arrow</kbd> / <kbd>D</kbd></p>
+            <p>Move Down: <kbd>Down Arrow</kbd> / <kbd>S</kbd></p>
+            <p>Rotate Counterclockwise: <kbd>Q</kbd></p>
+            <p>Rotate Clockwise: <kbd>W</kbd></p>
+        </div>
+        <div id="game">
+            <canvas id="tetris" width="320" height="640"></canvas>
+            <div id="score">Score: 0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

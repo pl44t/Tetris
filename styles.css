@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#controls {
+  margin-right: 20px;
+}
+
+#controls h2 {
+  margin: 0 0 10px;
+}
+
+#controls p {
+  margin: 5px 0;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  border: 1px solid #fff;
+  background: #000;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 20px;
+}
